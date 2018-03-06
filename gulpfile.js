@@ -285,7 +285,7 @@ gulp.task('clean-dist', function () {
 // Copies the files to the /dist folder for distributon
 /*
 RW: creates a /dist-product folder with anything inside you need to release it as "product".
-For example if you wanna offer it as theme download, publishing it on wordpress.org etc.
+For example if you want to offer it as theme download, publishing it on wordpress.org etc.
 // https://github.com/holger1411/understrap/issues/237
 */
 gulp.task('dist-product', ['clean-dist-product'], function() {
