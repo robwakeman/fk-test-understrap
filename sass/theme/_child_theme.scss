@@ -1,0 +1,66 @@
+/*
+p {
+	background-color: orange;
+}
+*/
+
+.entry-content {
+	background-color: linen;
+}
+
+.display1-size {
+	font-size: $display1-size;
+}
+
+.fishy {
+	padding: 1em;
+	background-color: pink;
+	margin: 1em 0;
+	border: 1px solid black;
+
+	@include media-breakpoint-up(sm) { 
+		margin: 1em;
+		background-color: gold;
+		/*border: 1px solid red;*/
+	}
+
+	@include media-breakpoint-up(md) {
+		
+		border: none;
+		background-color: tomato;
+
+		&:first-child {
+			margin-left: 0;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	@include media-breakpoint-only(xl) {
+		background-color: lightgreen;
+	}
+
+}
+
+
+.card-tiger {
+	flex: 0 1 250px;
+
+	@include media-breakpoint-up(md) {
+		flex: 0 1 320px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		/* flex-grow is set to 0 which, when justify-content is space-between, the 2 cards on the last row are flung to the edges of the row */
+		flex: 0 1 300px;
+		
+		/* set flex-grow to 1 to allow the 2 cards on the last row to expand to fit the whole row */
+		/* flex: 1 1 300px; */
+	}
+
+	@include media-breakpoint-up(xl) {
+		flex: 0 1 220px;
+	}
+}
