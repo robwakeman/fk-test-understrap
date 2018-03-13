@@ -5,12 +5,16 @@ p {
 */
 
 .entry-content {
-	background-color: linen;
+	background-color: skyblue;
+	border: 3px solid green;
 }
 
-.display1-size {
-	font-size: $display1-size;
+.dynamic-cols > * {
+	min-width: 250px;
+	background-color: hotpink;
 }
+
+
 
 .fishy {
 	padding: 1em;
@@ -39,7 +43,7 @@ p {
 	}
 
 	@include media-breakpoint-only(xl) {
-		background-color: lightgreen;
+		background-color: teal;
 	}
 
 }

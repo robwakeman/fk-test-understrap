@@ -10263,10 +10263,12 @@ p {
 }
 */
 .entry-content {
-  background-color: linen; }
+  background-color: skyblue;
+  border: 3px solid green; }
 
-.display1-size {
-  font-size: 6rem; }
+.dynamic-cols > * {
+  min-width: 250px;
+  background-color: hotpink; }
 
 .fishy {
   padding: 1em;
@@ -10288,7 +10290,7 @@ p {
         margin-right: 0; } }
   @media (min-width: 1200px) {
     .fishy {
-      background-color: lightgreen; } }
+      background-color: teal; } }
 
 .card-tiger {
   -webkit-box-flex: 0;
