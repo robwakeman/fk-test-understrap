@@ -47,6 +47,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php endwhile; // end of the loop. ?>
 
+					<img class="rounded-circle" src="http://www.joaddison.com/wp-content/uploads/mustav-900x674.jpg" alt="">
 
 
 

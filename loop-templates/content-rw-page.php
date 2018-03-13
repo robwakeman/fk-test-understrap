@@ -25,7 +25,8 @@
 	<h6>This is H6</h6>
 	<p>This is a paragraph</p>
 
-	<div class="display1-size">This is display1-size</div>
+	<div class="display-1">This is display-1</div>
+
 
 	<div class="d-sm-flex justify-content-sm-center justify-content-md-between">
 		<div class="fishy">Fishy 1 swaaxcc</div>
@@ -33,6 +34,8 @@
 		<div class="fishy">Fishy 3</div>
 		<div class="fishy">Fishy 4</div>
 	</div>
+
+
 
 
 	<div class="d-sm-flex justify-content-sm-between flex-sm-wrap flex-lg-wrap flex-xlg-nowrap">
