@@ -268,7 +268,7 @@ gulp.task('copy-assets', function() {
 // Run
 // gulp dist
 // Copies the files to the /dist folder for distributon
-// RW: creates a clean distribution without any dev stuff
+// RW: creates a clean distribution without any dev stuff ---
 // https://github.com/holger1411/understrap/issues/237
 gulp.task('dist', ['clean-dist'], function() {
     gulp.src(['**/*','!bower_components','!bower_components/**','!node_modules','!node_modules/**','!src','!src/**','!dist','!dist/**','!sass','!sass/**','!readme.txt','!readme.md','!README.md','!package.json','!gulpfile.js','!CHANGELOG.md','!.travis.yml','!jshintignore', '!codesniffer.ruleset.xml', '*'])
