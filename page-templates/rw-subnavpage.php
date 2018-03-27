@@ -19,6 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 			<div class="col">
 				<pre>This is rw-subnavpage.php</pre>
+				<p class="bg-danger text-light">Testing the BS colour variables e.g. success, info, warning, danger</p>
 				
 				<?php get_template_part( 'partial-templates/rw-nav', 'sub' ); ?>
 
