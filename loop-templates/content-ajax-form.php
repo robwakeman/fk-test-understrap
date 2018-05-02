@@ -25,7 +25,9 @@
 				<!-- form here -->
 				<form action="#" id="rw-contact-form" class="rw-contact-form needs-validation w-50" method="post" novalidate>
 
-					<input type="hidden" name="action" value="website_contactform">
+					<!-- value of hidden field must match Ajax request's 'action' property in rwajaxform.php
+				 i.e. wp_ajax_$youraction() -->
+					<input type="hidden" name="action" value="contact_us">
 
 				  <div class="form-group">
 			      <label for="name">Name</label>
@@ -59,16 +61,16 @@
 			</div> <!-- col -->
 		</div> <!-- row -->
 
-		<div class="row">
+		<div class="row loading-icon-container">
 			<div class="col loading-icon m-5"></div>
 		</div>
 
-		<div id="rw-ajax-form-feedback"></div>
+		<div id="rw-contact-form-feedback"></div>
 
 
 	</div><!-- .entry-content -->
 
-		<footer class="entry-footer">
+	<footer class="entry-footer">
 
 		<?php understrap_entry_footer(); ?>
 
