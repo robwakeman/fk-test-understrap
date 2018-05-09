@@ -3894,7 +3894,8 @@ Object.defineProperty(exports, '__esModule', { value: true });
 //# sourceMappingURL=bootstrap.js.map
 
 // RW added
-console.log ('This is a console.log with a time check 14:26 in child-theme-custom.js');
+console.log('This is a console.log with a time check 14:26 in child-theme-custom.js');
+
 /**
  * File skip-link-focus-fix.js.
  *

@@ -10263,11 +10263,11 @@ p {
 }
 */
 .entry-content {
-  background-color: cornsilk; }
+  background-color: #2efc1b; }
 
 .dynamic-cols > * {
   min-width: 210px;
-  background-color: gray; }
+  background-color: #cc8eea; }
 
 .fishy {
   padding: 1em;
